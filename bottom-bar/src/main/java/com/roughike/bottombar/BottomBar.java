@@ -562,6 +562,7 @@ public class BottomBar extends LinearLayout implements View.OnClickListener, Vie
             int height = title.getHeight();
             int paddingInsideTitle = height - baseline;
             int missingPadding = tenDp - paddingInsideTitle;
+            Log.d("cz"," baseline " + baseline + "height" + height + " missingPadding " + missingPadding + " title.getPaddingBottom() " + title.getPaddingBottom());
 
             if (missingPadding > 0) {
                 title.setPadding(title.getPaddingLeft(), title.getPaddingTop(),
